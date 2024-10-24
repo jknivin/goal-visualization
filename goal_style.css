@@ -1,0 +1,59 @@
+/* Add this to your existing styles */
+
+/* General Styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Specific Section Styles */
+.goal-setting, .progress-tracking, .update-progress, .visualization {
+    background-color: #f9f9f9;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #d91b30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b01626;
+}
+
+#visualization {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #d91b30;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
